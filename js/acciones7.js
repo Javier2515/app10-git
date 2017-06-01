@@ -3,9 +3,9 @@ $(document).ready(function(e) {
 		
 		$('#izquierda').on("swipeleft",function(){
 			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion7","Aceptar"});
-});
+          });
 
-$('#beep').on("tap",function(){
+$('#beep').tap(function(){
 	navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{
