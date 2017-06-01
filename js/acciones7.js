@@ -2,10 +2,9 @@
 
 $(document).ready(function(e) {
     document.addEventListener("deviceready",function(){
-
-
+		
 $('#beep').tap(function(){
-	navigator.notification.confirm("¿Que quieres hacer?",function(opt){
+navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{
 			case 1:
@@ -16,7 +15,9 @@ $('#beep').tap(function(){
 			break;
 		}
 	},"Aplicaion7","Aceptar,Cancelar");
-	
-});
-	},false);
-});
+});//tap beep
+
+
+
+},false); //deviceready
+}); //ready
