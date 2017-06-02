@@ -12,19 +12,7 @@ alert("device is ready");
 			break;
 			
 			case 2:
-			
-			function abrirEnPestana(url) {
-		var a = document.createElement("a");
-		a.target = "_self";
-		a.href = url;
-		a.click();
-	}
- 
-	var url="http://html-color-codes.info";
- 
-	window.onload=function(){
-		abrirEnPestana(url);
-	}
+			navigator.app.loadUrl("http://html-color-codes.info", { openExternal:true });
 			break;
 		}
 	},"Aplicaion7","Vibrar,Link,Cancelar");
