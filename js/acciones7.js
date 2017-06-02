@@ -7,22 +7,18 @@ alert("device is ready");
 	navigator.notification.confirm("Se abrira el navegador",function(opt){
 		switch(opt)
 		{
-			case 1:
-			navigator.notification.vibrate(2000);
-			break;
 			
-			case 2:
+			
+			case 1:
 			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_system', 'location=yes');
 			break;
 			
-			case 3:
-			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_self', 'location=yes');
-			break;
+		
 			
-			case 4:
+			case 2:
 			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_blank', 'location=yes');
 			break;
 		}
-	},"Aplicaion7","Vibrar,System,Self,Blank,Cancelar");
+	},"Aplicaion7","System,Blank,Cancelar");
   };
 
