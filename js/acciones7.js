@@ -38,3 +38,84 @@ alert("device is ready");
 		}
 	},"Advertencia","Continuar,Cancelar");
   };
+  
+  
+  
+  
+    function bio1(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('https://es.wikipedia.org/wiki/Biodiversidad', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+  
+  
+    function bio2(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('http://www.un.org/es/events/biodiversityday/', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+  
+  
+  
+    function bio3(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+  
+  
+      function eco1(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+
+    function eco2(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+
+    function eco3(){
+	navigator.notification.confirm("Se abrira el navegador",function(opt){
+		switch(opt)
+		{
+			case 1:
+			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			break;
+		}
+	},"Advertencia","Continuar,Cancelar");
+  };
+
+
+  
