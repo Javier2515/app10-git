@@ -2,7 +2,6 @@
 document.addEventListener("deviceready", loaded, false);
 function loaded(){
 alert("device is ready");
-var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_system', 'location=yes');
 };
   function MamWorkDone(){
 	navigator.notification.confirm("Se abrira el navegador",function(opt){
@@ -13,9 +12,17 @@ var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_system', '
 			break;
 			
 			case 2:
-			navigator.app.loadUrl("http://html-color-codes.info",{openExternal:true});
+			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_system', 'location=yes');
+			break;
+			
+			case 3:
+			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_self', 'location=yes');
+			break;
+			
+			case 4:
+			var ref = cordova.InAppBrowser.open('http://html-color-codes.info', '_blank', 'location=yes');
 			break;
 		}
-	},"Aplicaion7","Vibrar,Link,Cancelar");
+	},"Aplicaion7","Vibrar,System,Self,Blank,Cancelar");
   };
 
