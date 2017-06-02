@@ -87,7 +87,7 @@ alert("device is ready");
 		switch(opt)
 		{
 			case 1:
-			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			var ref = cordova.InAppBrowser.open('https://prezi.com/bodi8oac-tvk/conciencia-ecologica/?webgl=0', '_system', 'location=yes');
 			break;
 		}
 	},"Advertencia","Continuar,Cancelar");
@@ -99,7 +99,7 @@ alert("device is ready");
 		switch(opt)
 		{
 			case 1:
-			var ref = cordova.InAppBrowser.open('http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48', '_system', 'location=yes');
+			var ref = cordova.InAppBrowser.open('https://www.ecologiaverde.com/conciencia-ecologica/', '_system', 'location=yes');
 			break;
 		}
 	},"Advertencia","Continuar,Cancelar");
